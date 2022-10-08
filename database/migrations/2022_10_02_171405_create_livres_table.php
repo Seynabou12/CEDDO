@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('livres', function (Blueprint $table) {
             $table->bigIncrements("id");
+            $table->string("uuid")->nullable();
             $table->string("datePublication")->nullable();
             $table->string("publication")->nullable();
             $table->string("imageCouverture")->nullable();

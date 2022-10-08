@@ -149,28 +149,50 @@
                   </li>
                 </ul>
               </li>
-              <li class="menu-label">Forms & Tables</li>
+              <li class="menu-label">Formulaires & Listes</li>
               <li>
                 <a class="has-arrow" href="javascript:;">
                   <div class="parent-icon"><i class="bi bi-file-earmark-break"></i>
                   </div>
-                  <div class="menu-title">Forms</div>
+                  <div class="menu-title">Gestion des Actualités</div>
                 </a>
                 <ul>
-                  <li> <a href="form-elements.html"><i class="bi bi-arrow-right-short"></i>Form Elements</a>
+                  <!-- <li> <a href="form-elements.html"><i class="bi bi-arrow-right-short"></i>Form Elements</a>
                   </li>
                   <li> <a href="form-input-group.html"><i class="bi bi-arrow-right-short"></i>Input Groups</a>
                   </li>
                   <li> <a href="form-layouts.html"><i class="bi bi-arrow-right-short"></i>Forms Layouts</a>
+                  </li> -->
+                  <li> <a href="/publicites/create"><i class="bi bi-arrow-right-short"></i>Ajout d'Actualités</a>
                   </li>
-                  <li> <a href="form-validations.html"><i class="bi bi-arrow-right-short"></i>Form Validation</a>
+                  <li> <a href="/publicites"><i class="bi bi-arrow-right-short"></i>Liste des Actualités</a>
                   </li>
-                  <li> <a href="form-wizard.html"><i class="bi bi-arrow-right-short"></i>Form Wizard</a>
+                  <!-- <li> <a href="form-wizard.html"><i class="bi bi-arrow-right-short"></i>Form Wizard</a>
                   </li>
                   <li> <a href="form-date-time-pickes.html"><i class="bi bi-arrow-right-short"></i>Date Pickers</a>
                   </li>
                   <li> <a href="form-select2.html"><i class="bi bi-arrow-right-short"></i>Select2</a>
+                  </li> -->
+                </ul>
+              </li>
+              <li>
+                <a class="has-arrow" href="javascript:;">
+                  <div class="parent-icon"><i class="bi bi-file-earmark-break"></i>
+                  </div>
+                  <div class="menu-title">Gestion des Livres</div>
+                </a>
+                <ul>
                   </li>
+                  <li> <a href="form-validations.html"><i class="bi bi-arrow-right-short"></i>Ajout de Livres</a>
+                  </li>
+                  <li> <a href="table-advance-tables.html"><i class="bi bi-arrow-right-short"></i>Liste des Livres</a>
+                  </li>
+                  <!-- <li> <a href="form-wizard.html"><i class="bi bi-arrow-right-short"></i>Form Wizard</a>
+                  </li>
+                  <li> <a href="form-date-time-pickes.html"><i class="bi bi-arrow-right-short"></i>Date Pickers</a>
+                  </li>
+                  <li> <a href="form-select2.html"><i class="bi bi-arrow-right-short"></i>Select2</a>
+                  </li> -->
                 </ul>
               </li>
               <li>

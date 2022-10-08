@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('acteurs', function (Blueprint $table) {
             $table->bigIncrements("id");
+            $table->string("uuid")->nullable();
             $table->string('prenom')->nullable();
             $table->string('nom')->nullable();
             $table->string('fonction')->nullable();
