@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ActeurController;
 use App\Http\Controllers\CategorieController;
+use App\Http\Controllers\LivreController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 defaultRoutesFor("categorie", CategorieController::class);
 defaultRoutesFor("acteur", ActeurController::class);
+defaultRoutesFor("livre", LivreController::class);
