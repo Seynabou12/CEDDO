@@ -39,30 +39,37 @@
 <h6 class="mb-0 text-uppercase">Liste des Acteurs</h6>
 <hr />
 <div class="content-body">
-    <div class="col-md-12">
+    <div class="col-md-12 card card-body">
         <form action="/acteur" method="post" id="form">
 
             @csrf
-            <div class="form-group mb-2">
-                <label for="prenom" class="control-label">Prenom de la acteur</label>
-                <input type="text" class="form-control" name="prenom" id="prenom" required />
+            <div class="row">
+                <div class="form-group mb-2 col-md-6">
+                    <label for="prenom" class="control-label">Prenom de la acteur</label>
+                    <input type="text" class="form-control" name="prenom" id="prenom" required />
+                </div>
+                <div class="form-group mb-2 col-md-6">
+                    <label for="nom" class="control-label">Nom de la acteur</label>
+                    <input type="text" class="form-control" name="nom" id="nom" required />
+                </div>
             </div>
-            <div class="form-group mb-2">
-                <label for="nom" class="control-label">Nom de la acteur</label>
-                <input type="text" class="form-control" name="nom" id="nom" required />
+            <div class="row">
+                <div class="form-group mb-2 col-md-6">
+                    <label for="fonction" class="control-label">Fonction de l'acteur</label>
+                    <input type="text" class="form-control" name="fonction" id="fonction" required />
+                </div>
+                <div class="form-group mb-2 col-md-6">
+                    <label for="biographie" class="control-label">Biographie de l'acteur</label>
+                    <input type="text" class="form-control" name="biographie" id="biographie" required />
+                </div>
             </div>
-            <div class="form-group mb-2">
-                <label for="fonction" class="control-label">Fonction de l'acteur</label>
-                <input type="text" class="form-control" name="fonction" id="fonction" required />
+            <div class="row">
+                <div class="form-group mb-2 col-md-6">
+                    <label for="photo" class="control-label">Profil de l'acteur</label>
+                    <input type="file" class="form-control" name="photo" id="photo" required />
+                </div>
             </div>
-            <div class="form-group mb-2">
-                <label for="biographie" class="control-label">Biographie de l'acteur</label>
-                <input type="text" class="form-control" name="biographie" id="biographie" required />
-            </div>
-            <div class="form-group mb-2">
-                <label for="photo" class="control-label">Profil de l'acteur</label>
-                <input type="file" class="form-control" name="photo" id="photo" required />
-            </div>
+
             <div class="form-group mt-4">
                 <input type="reset" value="Annuler" class="btn btn-danger mr-2" onclick="$(this).resetform()">
                 <input type="submit" value="Enregistrer" class="btn btn-primary">
@@ -70,7 +77,7 @@
 
         </form>
     </div>
-    
+
     <div class="col-md-12" style="margin-top: 20px;">
         <div class="card">
             <div class="card-body">
@@ -133,7 +140,11 @@
                     json: "json"
                 },
                 function(data, textStatus, jqXHR) {
-                    $("#libelle").val(data.libelle).change();
+                    $("#prenom").val(data.prenom).change();
+                    $("#nom").val(data.nom).change();
+                    $("#fonction").val(data.fonction).change();
+                    $("#biographie").val(data.biographie).change();
+                    $("#photo").val(data.photo).change();
                     $("#form").attr("action", "/acteur/" + data.uuid);
                 },
                 "json"
@@ -151,7 +162,7 @@
                 cancelButtonText: 'Annuler'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    document.location.href = document.location.origin + "/acteur/" + id +
+                    document.location.href = document.location.origin + "/acteur" + id +
                         "/delete";
                 }
             })

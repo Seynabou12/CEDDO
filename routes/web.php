@@ -16,10 +16,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcom', function () {
     return view('welcome');
 });
-
+Route::get('/', function () {
+    return view('acceuils.index');
+});
 defaultRoutesFor("categorie", CategorieController::class);
 defaultRoutesFor("acteur", ActeurController::class);
 defaultRoutesFor("livre", LivreController::class);
