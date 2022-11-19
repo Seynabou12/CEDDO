@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ActeurController;
+use App\Http\Controllers\AproposController;
 use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\LivreController;
 use Illuminate\Support\Facades\Route;
@@ -22,6 +23,14 @@ Route::get('/welcom', function () {
 Route::get('/', function () {
     return view('acceuils.index');
 });
+
+Route::get('/contact', function () {
+    return view('acceuils.contact');
+});
+
+Route::get('/apropos', [AproposController::class, 'apropos']);
+
 defaultRoutesFor("categorie", CategorieController::class);
 defaultRoutesFor("acteur", ActeurController::class);
 defaultRoutesFor("livre", LivreController::class);
+

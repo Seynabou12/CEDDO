@@ -10,4 +10,8 @@ class AccueilController extends Controller
     {
         return view('acceuils.index');
     }
+    public function propos()
+    {
+        return view('acceuils.apropos');
+    }
 }
