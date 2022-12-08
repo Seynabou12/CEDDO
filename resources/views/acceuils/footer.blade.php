@@ -22,51 +22,31 @@
               <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-        </div><!-- End footer info column-->
+        </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+        <div class="col-lg-4 col-md-3 footer-links">
+          <h4>Plan du Site</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">A Propos</a></li>
+            <li><a href="#">Catalogue</a></li>
+            <li><a href="#">Devenir Acteur</a></li>
+            <li><a href="#">Actualités</a></li>
           </ul>
         </div>
+
+        <div class="col-lg-4 col-md-3 footer-links">
+          <h4>Catalogue</h4>
+          <ul>
+            <li><a href="#">Roman</a></li>
+            <li><a href="#">Poésie</a></li>
+            <li><a href="#">Littérature</a></li>
+            <li><a href="#">Nouvelle</a></li>
+            <li><a href="#">Jeunesse</a></li>
+          </ul>
+        </div><!-- End footer links column-->
+
+       
 
       </div>
     </div>

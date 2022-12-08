@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>UpConstruction Bootstrap Template - Index</title>
+  <title>Accueil CEDDO</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -18,7 +18,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="/asset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="/asset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="/asset/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -26,22 +25,19 @@
   <link href="/asset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="/asset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
   <link href="/asset/css/main.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- ======= Header ======= -->
-   <!-- ======= Header ======= -->
- @include('acceuils.header')
-  <!-- ======= Hero Section ======= -->
+
+  @include('acceuils.header')
   <section id="hero" class="hero">
 
     <div class="info d-flex align-items-center">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2 data-aos="fade-down">Welcome to <span>UpConstruction</span></h2>
+            <h2 data-aos="fade-down">Bienvenue à <span>Ceddo Edition</span></h2>
             <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
           </div>
@@ -66,73 +62,19 @@
 
     </div>
 
-  </section><!-- End Hero Section -->
+  </section>
 
   <main id="main">
-
-    <!-- ======= Get Started Section ======= -->
-    <section id="get-started" class="get-started section-bg">
-      <div class="container">
-
-        <div class="row justify-content-between gy-4">
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
-            <div class="content">
-              <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-              <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.
-              <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-5" data-aos="fade">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Get a quote</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
-              <div class="row gy-3">
-
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Name" required>
-                </div>
-
-                <div class="col-md-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
-
-                  <button type="submit">Get a quote</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Quote Form -->
-
-        </div>
-
-      </div>
-    </section>
 
     <section id="constructions" class="constructions">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Constructions</h2>
+          <h2>Nouveautés</h2>
           <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
         </div>
 
         <div class="row gy-4">
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card-item">
               <div class="row">
@@ -147,7 +89,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card-item">
@@ -163,7 +105,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="card-item">
@@ -179,7 +121,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card-item">
@@ -195,14 +137,124 @@
                 </div>
               </div>
             </div>
-          </div><!-- End Card Item -->
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-header">
+          <h2>Nos Actualités</h2>
+          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+        </div>
+
+        <div class="row gy-4 posts-list">
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="/asset/img/blog/blog-1.jpg" class="img-fluid" alt="">
+                <span class="post-date">December 12</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">John Doe</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                  </div>
+                </div>
+                <p>
+                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
+                </p>
+                <hr>
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="/asset/img/blog/blog-2.jpg" class="img-fluid" alt="">
+                <span class="post-date">March 19</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Nisi magni odit consequatur autem nulla dolorem</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
+                  </div>
+                </div>
+
+                <p>
+                  Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam.
+                </p>
+
+                <hr>
+
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="/asset/img/blog/blog-3.jpg" class="img-fluid" alt="">
+                <span class="post-date">June 24</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Maria Doe</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                  </div>
+                </div>
+                <p>
+                  Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
+                </p>
+                <hr>
+                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-pagination">
+          <ul class="justify-content-center">
+            <a href="/actualites"><button type="submit">Voir Plus</button></a>
+          </ul>
         </div>
 
       </div>
-    </section><!-- End Constructions Section -->
+    </section>
 
-    <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -282,9 +334,8 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Alt Services Section ======= -->
+    </section>
+    
     <section id="alt-services" class="alt-services">
       <div class="container" data-aos="fade-up">
 
@@ -301,7 +352,7 @@
                 <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-patch-check flex-shrink-0"></i>
@@ -309,7 +360,7 @@
                 <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
@@ -317,7 +368,7 @@
                 <h4><a href="" class="stretched-link">Dine Pad</a></h4>
                 <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-brightness-high flex-shrink-0"></i>
@@ -325,15 +376,14 @@
                 <h4><a href="" class="stretched-link">Tride clov</a></h4>
                 <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
           </div>
         </div>
 
       </div>
-    </section><!-- End Alt Services Section -->
+    </section>
 
-    <!-- ======= Features Section ======= -->
     <section id="features" class="features section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -343,24 +393,24 @@
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
               <h4>Modisit</h4>
             </a>
-          </li><!-- End tab nav item -->
+          </li>
 
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
               <h4>Praesenti</h4>
-            </a><!-- End tab nav item -->
+            </a>
 
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
               <h4>Explica</h4>
             </a>
-          </li><!-- End tab nav item -->
+          </li>
 
           <li class="nav-item col-3">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
               <h4>Nostrum</h4>
             </a>
-          </li><!-- End tab nav item -->
+          </li>
 
         </ul>
 
@@ -450,10 +500,13 @@
         </div>
 
       </div>
-    </section><!-- End Features Section -->
+    </section>
+    
+    <!-- End Features Section -->
 
     <!-- ======= Our Projects Section ======= -->
-    <section id="projects" class="projects">
+
+    <!-- <section id="projects" class="projects">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -469,7 +522,7 @@
             <li data-filter=".filter-construction">Construction</li>
             <li data-filter=".filter-repairs">Repairs</li>
             <li data-filter=".filter-design">Design</li>
-          </ul><!-- End Projects Filters -->
+          </ul>
 
           <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -483,7 +536,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div class="portfolio-content h-100">
@@ -495,7 +548,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
@@ -507,7 +560,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
@@ -519,7 +572,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
@@ -531,7 +584,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div class="portfolio-content h-100">
@@ -543,7 +596,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
@@ -555,7 +608,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
@@ -567,7 +620,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
@@ -579,7 +632,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
               <div class="portfolio-content h-100">
@@ -591,7 +644,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
               <div class="portfolio-content h-100">
@@ -603,7 +656,7 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-design">
               <div class="portfolio-content h-100">
@@ -615,16 +668,19 @@
                   <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
-            </div><!-- End Projects Item -->
+            </div>
 
-          </div><!-- End Projects Container -->
-
+          </div> End Projects Container -->
+    <!-- 
         </div>
 
       </div>
-    </section><!-- End Our Projects Section -->
+    </section>  -->
+
+    <!-- End Our Projects Section -->
 
     <!-- ======= Testimonials Section ======= -->
+
     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -670,7 +726,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -688,7 +744,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -706,7 +762,7 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-wrap">
@@ -724,226 +780,22 @@
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-blog-posts" class="recent-blog-posts">
-      <div class="container" data-aos="fade-up"">
-
-    
-    
-  <div class=" section-header">
-        <h2>Recent Blog Posts</h2>
-        <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p>
-      </div>
-
-      <div class="row gy-5">
-
-        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="post-item position-relative h-100">
-
-            <div class="post-img position-relative overflow-hidden">
-              <img src="/asset/img/blog/blog-1.jpg" class="img-fluid" alt="">
-              <span class="post-date">December 12</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                </div>
-              </div>
-
-              <hr>
-
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="post-item position-relative h-100">
-
-            <div class="post-img position-relative overflow-hidden">
-              <img src="/asset/img/blog/blog-2.jpg" class="img-fluid" alt="">
-              <span class="post-date">July 17</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
-                </div>
-              </div>
-
-              <hr>
-
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-        <div class="col-xl-4 col-md-6">
-          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
-
-            <div class="post-img position-relative overflow-hidden">
-              <img src="/asset/img/blog/blog-3.jpg" class="img-fluid" alt="">
-              <span class="post-date">September 05</span>
-            </div>
-
-            <div class="post-content d-flex flex-column">
-
-              <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
-
-              <div class="meta d-flex align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
-                </div>
-                <span class="px-3 text-black-50">/</span>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                </div>
-              </div>
-
-              <hr>
-
-              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-            </div>
-
-          </div>
-        </div><!-- End post item -->
-
-      </div>
-
       </div>
     </section>
-    <!-- End Recent Blog Posts Section -->
 
-  </main><!-- End #main -->
+  </main>
 
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-content position-relative">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>UpConstruction</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links d-flex mt-3">
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div><!-- End footer info column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div><!-- End footer links column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
-            </ul>
-          </div><!-- End footer links column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Hic solutasetp</h4>
-            <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
-            </ul>
-          </div><!-- End footer links column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Nobis illum</h4>
-            <ul>
-              <li><a href="#">Ipsam</a></li>
-              <li><a href="#">Laudantium dolorum</a></li>
-              <li><a href="#">Dinera</a></li>
-              <li><a href="#">Trodelas</a></li>
-              <li><a href="#">Flexo</a></li>
-            </ul>
-          </div><!-- End footer links column-->
-
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-legal text-center position-relative">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>UpConstruction</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-    </div>
-
-  </footer>
-  <!-- End Footer -->
+  @include('acceuils.footer')
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
   <script src="/asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="/asset/vendor/aos/aos.js"></script>
   <script src="/asset/vendor/glightbox/js/glightbox.min.js"></script>
@@ -952,7 +804,6 @@
   <script src="/asset/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="/asset/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="/asset/js/main.js"></script>
 
 </body>
