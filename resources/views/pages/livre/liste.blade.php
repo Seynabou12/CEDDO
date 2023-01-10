@@ -82,10 +82,6 @@
                                 <td>{{ $livre->date }}</td>
 
                                 <td class="text-center text-primary cursor-event">
-                                    {{-- <a href="javascript:;" class="text-primary" data-bs-toggle="tooltip"
-                                                data-bs-placement="bottom" title=""
-                                                data-bs-original-title="View detail" aria-label="Views"><i
-                                                    class="fs-5 bi bi-eye-fill"></i></a> --}}
                                     <span onclick="$(this).edit('{{ $livre->uuid }}')"><i class="fs-5 bi bi-pencil-fill"></i></span>
                                     <span class="text-danger" onclick="$(this).delete('{{ $livre->uuid }}')"><i class="fs-5 bi bi-trash-fill"></i></span>
                                 </td>
@@ -151,7 +147,7 @@
                 cancelButtonText: 'Annuler'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    document.location.href = document.location.origin + "/livre" + id +
+                    document.location.href = document.location.origin + "/livre/" + id +
                         "/delete";
                 }
             })

@@ -295,4 +295,74 @@ var options = {
 
 
 
+  
+   // world map
+	
+	jQuery('#geographic-map').vectorMap({
+		map: 'world_mill_en',
+		backgroundColor: 'transparent',
+		borderColor: '#818181',
+		borderOpacity: 0.25,
+		borderWidth: 1,
+		zoomOnScroll: false,
+		color: '#009efb',
+		regionStyle: {
+			initial: {
+				fill: '#6c757d'
+			}
+		},
+		markerStyle: {
+			initial: {
+				r: 9,
+				'fill': '#fff',
+				'fill-opacity': 1,
+				'stroke': '#000',
+				'stroke-width': 5,
+				'stroke-opacity': 0.4
+			},
+		},
+		enableZoom: true,
+		hoverColor: '#009efb',
+		markers: [{
+			latLng: [21.00, 78.00],
+			name: 'I Love My India'
+		}],
+		series: {
+			regions: [{
+				values: {
+					IN: '#8833ff',
+					US: '#3461ff',
+					RU: '#12bf24',
+					AU: '#ffb207'
+				}
+			}]
+		},
+		hoverOpacity: null,
+		normalizeFunction: 'linear',
+		scaleColors: ['#b6d6ff', '#005ace'],
+		selectedColor: '#c9dfaf',
+		selectedRegions: [],
+		showTooltip: true,
+		onRegionClick: function (element, code, region) {
+			var message = 'You clicked "' + region + '" which has the code: ' + code.toUpperCase();
+			alert(message);
+		}
+	});
+
+
+    $(document).ready(function() {
+        $('#Transaction-History').DataTable({
+           lengthMenu: [[6, 10, 20, -1], [6, 10, 20, 'Todos']]
+        });
+     } );
+
+
+     new PerfectScrollbar(".new-customer-list")
+
+
+
+
+
+
+
 });

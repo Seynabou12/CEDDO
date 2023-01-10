@@ -35,8 +35,8 @@
 </script>
 @endif
 
-
-<h6 class="mb-0 text-uppercase">Liste des Categories</h6>
+@include('pages.categorie.create')
+<h6 class="mb-0 text-uppercase">Liste des Categories de Livres</h6>
 <hr />
 <div class="row content-body">
     <div class="col-md-8">
@@ -57,11 +57,7 @@
                                 <td>{{ $categorie->id }}</td>
                                 <td>{{ $categorie->libelle }}</td>
                                 <td class="text-center text-primary cursor-event">
-                                    {{-- <a href="javascript:;" class="text-primary" data-bs-toggle="tooltip"
-                                                data-bs-placement="bottom" title=""
-                                                data-bs-original-title="View detail" aria-label="Views"><i
-                                                    class="fs-5 bi bi-eye-fill"></i></a> --}}
-                                    <span onclick="$(this).edit('{{ $categorie->uuid }}')"><i class="fs-5 bi bi-pencil-fill"></i></span>
+                                    <span onclick="$(this).edit('{{ $categorie->id }}')"><i class="fs-5 bi bi-pencil-fill"></i></span>
                                     <span class="text-danger" onclick="$(this).delete('{{ $categorie->uuid }}')"><i class="fs-5 bi bi-trash-fill"></i></span>
                                 </td>
                             </tr>
@@ -71,21 +67,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <form action="/categorie" method="post" id="form">
-
-            @csrf
-            <div class="form-group mb-2">
-                <label for="libelle" class="control-label">Nom de la Categorie</label>
-                <input type="text" class="form-control" name="libelle" id="libelle" required />
-            </div>
-            <div class="form-group mt-4">
-                <input type="reset" value="Annuler" class="btn btn-danger mr-2" onclick="$(this).resetform()">
-                <input type="submit" value="Enregistrer" class="btn btn-primary">
-            </div>
-
-        </form>
     </div>
 </div>
 @endsection
@@ -108,7 +89,7 @@
                 },
                 function(data, textStatus, jqXHR) {
                     $("#libelle").val(data.libelle).change();
-                    $("#form").attr("action", "/categorie/" + data.uuid);
+                    $("#form").attr("action", "/categorie/" + data.id);
                 },
                 "json"
             );

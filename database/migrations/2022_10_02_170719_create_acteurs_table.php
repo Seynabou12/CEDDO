@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('prenom')->nullable();
             $table->string('nom')->nullable();
             $table->string('fonction')->nullable();
-            $table->string('photo')->nullable();
+            $table->string('photo', 300)->nullable();
             $table->string('biographie');
 
             $table->timestamps();

@@ -60,7 +60,7 @@
                                     <div class="row">
                                         <div class="form-group mb-2 col-md-6">
                                             <label for="date" class="control-label">date du livre</label>
-                                            <input type="date" class="form-control datepicker" name="date" id="date" required />
+                                            <input type="date" class="form-control" name="date" id="date" required />
                                         </div>
                                         <div class="form-group mb-3 col-md-6">
                                             <label for="categorie_id" class="control-label">Catégorie</label>

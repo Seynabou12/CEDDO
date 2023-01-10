@@ -2,15 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
 {
 
     public function formLogin()
     {
+
         return view('login');
     }
 
@@ -31,8 +32,8 @@ class LoginController extends Controller
                 dd('Vous etes un utilisateur');
             }
         } else {
-            // Session::flash('message','Adresse Email ou Mot de Passe Incorrect');
-            // Session::flash('class-alert','alert-danger');
+            Session::flash('message', 'Adresse Email ou Mot de Passe Incorrect');
+            Session::flash('class-alert', 'alert-danger');
             return back();
         }
     }

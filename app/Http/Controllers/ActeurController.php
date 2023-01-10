@@ -31,38 +31,22 @@ class ActeurController extends Controller
      * @param string $uuid
      * @return void
      */
-    public function save(Request $request, string $uuid = null)
+    public function save(Request $request)
     {
-        $request->validate(
-            [
-                "prenom" => "required"
-            ],
-            [
-                "prenom.required" => "Le Prenom de la acteur est obligatoire",
-            ],
-            [
-                "nom" => "required"
-            ],
-            [
-                "nom.required" => "Le Nom de la acteur est obligatoire",
-            ],
-            [
-                "fonction" => "required"
-            ],
-            [
-                "fonction.required" => "La Fonction de la acteur est obligatoire",
-            ],
-            [
-                "biographie" => "required"
-            ],
-            [
-                "biographie.required" => "La Biographie de la acteur est obligatoire",
-            ]
-        );
 
-        $acteur = $uuid == null ? new Acteur() : Acteur::findByUuid($uuid);
-        $acteur->fill($request->all());
-        $acteur->save();
+        $input = $request->all();
+        $fileName = time() . $request->file('photo')->getClientOriginalName();
+        $path = $request->file('photo')->storeAs('images', $fileName, 'public');
+        $input['photo'] = '/storage/' . $path;
+
+        $user = Acteur::create([
+            'prenom'=>$input['prenom'],
+            'nom'=>$input['nom'],
+            'fonction'=>$input['fonction'],
+            'biographie'=>$input['biographie'],
+            'photo'=>$input['photo'],
+        ]);
+       
         return redirect()->route("acteur.get")->with("success", "La acteur a été bien enregistrer");
     }
 
