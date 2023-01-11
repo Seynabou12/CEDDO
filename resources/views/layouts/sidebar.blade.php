@@ -4,7 +4,7 @@
             <img src="/assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
         </div>
         <div>
-            <h4 class="logo-text">CEDDO</h4>
+            <h4 class="logo-text">CEDDO EDITION</h4>
         </div>
         <div class="toggle-icon ms-auto"><i class="bi bi-chevron-double-left"></i>
         </div>
@@ -70,10 +70,21 @@
             <a href="javascript:;" class="has-arrow">
                 <div class="parent-icon"><i class="bi bi-house-door"></i>
                 </div>
-                <div class="menu-title">Gestion Catégorie</div>
+                <div class="menu-title">Gestion Catégories</div>
             </a>
             <ul>
                 <li> <a href="/categorie"><i class="bi bi-arrow-right-short"></i>Liste Categorie</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="javascript:;" class="has-arrow">
+                <div class="parent-icon"><i class="bi bi-house-door"></i>
+                </div>
+                <div class="menu-title">Gestion Nouveau Livre</div>
+            </a>
+            <ul>
+                <li> <a href="/nouveaute"><i class="bi bi-arrow-right-short"></i>Nouveaux Livres</a>
                 </li>
             </ul>
         </li>
