@@ -18,7 +18,7 @@
                                     <div class="row">
                                         <div class="form-group mb-2 col-md-6">
                                             <label for="titre" class="control-label">Titre du Livre</label>
-                                            <input type="date" class="form-control" name="titre" id="titre"
+                                            <input type="text" class="form-control" name="titre" id="titre"
                                                 required />
                                         </div>
                                         <div class="form-group mb-2 col-md-6">

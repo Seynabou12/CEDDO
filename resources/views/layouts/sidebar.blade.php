@@ -17,76 +17,31 @@
                 <div class="menu-title">Tableau de Bord</div>
             </a>
             <ul>
-                <li> <a href="/dashbord"><i class="bi bi-arrow-right-short"></i>Dashbord</a>
+                <li> <a href="/dashbord"><i class="bi bi-arrow-right-short"></i> Dashbord</a>
                 </li>
             </ul>
         </li>
-        <li class="menu-label">Form & Tables</li>
+        <li class="menu-label">Ajout et Liste</li>
         <li>
-            <a href="javascript:;" class="has-arrow">
-                <div class="parent-icon"><i class="bi bi-house-door"></i>
-                </div>
-                <div class="menu-title">Gestion Users</div>
-            </a>
-            <ul>
-                <li> <a href="/users"><i class="bi bi-arrow-right-short"></i>Liste Users</a>
-                </li>
-            </ul>
+            <div class="menu-title"><a href="/users"><i class="bi bi-person"></i>
+                    Utilisateurs</a></div>
         </li>
         <li>
-            <a href="javascript:;" class="has-arrow">
-                <div class="parent-icon"><i class="bi bi-house-door"></i>
-                </div>
-                <div class="menu-title">Gestion Acteurs</div>
-            </a>
-            <ul>
-                <li> <a href="/acteur"><i class="bi bi-arrow-right-short"></i>Liste Acteurs</a>
-                </li>
-            </ul>
+            <div class="menu-title"><a href="/acteur"><i class="bi bi-person"></i> Acteurs</a></div>
         </li>
         <li>
-            <a href="javascript:;" class="has-arrow">
-                <div class="parent-icon"><i class="bi bi-house-door"></i>
-                </div>
-                <div class="menu-title">Gestion Actualités</div>
-            </a>
-            <ul>
-                <li> <a href="/actualites"><i class="bi bi-arrow-right-short"></i>Liste Actualités</a>
-                </li>
-            </ul>
+            <div class="menu-title"><a href="/actualites"><i class="bi bi-info-circle"></i>
+                Actualités</a></div>
         </li>
         <li>
-            <a href="javascript:;" class="has-arrow">
-                <div class="parent-icon"><i class="bi bi-house-door"></i>
-                </div>
-                <div class="menu-title">Gestion Livres</div>
-            </a>
-            <ul>
-                <li> <a href="/livre"><i class="bi bi-arrow-right-short"></i>Liste Livres</a>
-                </li>
-            </ul>
+            <div class="menu-title"><a href="/livre"><i class="bi bi-book"></i> Livres</a></div>
         </li>
         <li>
-            <a href="javascript:;" class="has-arrow">
-                <div class="parent-icon"><i class="bi bi-house-door"></i>
-                </div>
-                <div class="menu-title">Gestion Catégories</div>
-            </a>
-            <ul>
-                <li> <a href="/categorie"><i class="bi bi-arrow-right-short"></i>Liste Categorie</a>
-                </li>
-            </ul>
+            <div class="menu-title"><a href="/categorie"><i class="bi bi-arrow-right-short"></i> Categorie</a></div>
         </li>
         <li>
-            <a href="javascript:;" class="has-arrow">
-                <div class="parent-icon"><i class="bi bi-house-door"></i>
-                </div>
-                <div class="menu-title">Gestion Nouveau Livre</div>
-            </a>
-            <ul>
-                <li> <a href="/nouveaute"><i class="bi bi-arrow-right-short"></i>Nouveaux Livres</a>
-                </li>
-            </ul>
+            <div class="menu-title"><a href="/nouveaute"><i class="bi bi-arrow-right-short"></i> Nouveaux Livres</a>
+            </div>
         </li>
     </ul>
 </aside>

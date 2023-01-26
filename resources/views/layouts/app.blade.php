@@ -48,21 +48,14 @@
 
   </div>
 
-
-  <!--Start Back To Top Button-->
   <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-  <!--End Back To Top Button-->
-
-
-  <!-- Bootstrap bundle JS -->
-  <!--plugins-->
+ 
   <script src="/assets/plugins/metismenu/js/metisMenu.min.js"></script>
   <script src="/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
   <script src="/assets/js/pace.min.js"></script>
   <script src="/assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
   <script src="/assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
   <script src="/assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
-  <!--app-->
   <script src="/assets/js/app.js"></script>
 
   @yield('js')

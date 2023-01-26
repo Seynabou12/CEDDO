@@ -18,7 +18,7 @@
                         <li><a href="#">TEMOIGNAGES</a></li>
                     </ul>
                 </li>
-                <li><a href="#" style="color: black;">Nouveautés</a></li>
+                <li><a href="/nouveaute" style="color: black;">Nouveautés</a></li>
                 <li><a href="/actualites" style="color: black;">Actualités</a></li>
                 <li><a href="projects.html" style="color: black;">Devenir Acteur</a></li>
                 <li class="dropdown" style="color: black;"><a href="#"><span style="color: black;"> Catalogues
